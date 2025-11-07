@@ -10,9 +10,9 @@ You are free to choose any programming to complete this task, and would prefer P
 We would like to get any code you write for this project, and would appreciate it if it was at least informally commented so that it’s easier to read for us.
 
 ## Data Preparation:
-* We have both `training` and `test` dataset.
-* Load the dataset into pandas df and add a column: `type` with values = `test`/`train`. We do this because we want to `concatenate` both the datasets and perform the cleanup.
-* After cleaning the dataset, we can split the dataset into `test` and `train` datasets and split `features` and `classification` from each dataset and use it in building the `classification` model.
+- We have both `training` and `test` dataset.
+- Load the dataset into pandas df and add a column: `type` with values = `test`/`train`. We do this because we want to `concatenate` both the datasets and perform the cleanup.
+- After cleaning the dataset, we can split the dataset into `test` and `train` datasets and split `features` and `classification` from each dataset and use it in building the `classification` model.
 
 
 ## Data Cleaning:
@@ -65,4 +65,5 @@ Final accuracy scores of the models:
 |----------|--------|
 |knn|**0.710**|
 |Logistic Regression|**0.610**|
+
 |Naive Bayes (Gaussian)|**0.605**|
